@@ -13,4 +13,13 @@ appversion: 0.0.0
 deprecated: false
 annotations: {}
 kubeversion: ""
+dependencies:
+- name: onecx-tenant-svc
+  version: 0.0.0-rc.17
+  repository: oci://ghcr.io/onecx/charts
+  condition: ""
+  tags: []
+  enabled: false
+  importvalues: []
+  alias: ""
 type: ""

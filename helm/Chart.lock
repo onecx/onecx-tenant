@@ -1,0 +1,6 @@
+dependencies:
+- name: onecx-tenant-svc
+  repository: oci://ghcr.io/onecx/charts
+  version: 0.0.0-rc.17
+digest: sha256:2e832f83a9278b0cb7d097e03330ae670ab99f02f0b6620b2ea403312c9c4b60
+generated: "2023-12-12T19:47:39.196177594+01:00"

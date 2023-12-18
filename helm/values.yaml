@@ -1,2 +1,11 @@
 deployment:
   svc: true
+
+product:
+  info:
+    data:
+      description: "Onecx tenant product"
+      imageUrl: ""
+      iconName: "lock"
+      dispalyName: "Tenant"
+      basePath: "/tenant"

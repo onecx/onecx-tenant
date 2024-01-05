@@ -4,8 +4,9 @@ deployment:
 product:
   info:
     data:
-      description: "Onecx tenant product"
+      description: "OneCX Tenant"
       imageUrl: ""
       iconName: "lock"
-      dispalyName: "Tenant"
+      displayName: "OneCX Tenant"
       basePath: "/tenant"
+      

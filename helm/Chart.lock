@@ -1,9 +1,9 @@
 dependencies:
 - name: helm-product
   repository: oci://ghcr.io/onecx/charts
-  version: 0.0.0
+  version: 0.1.0
 - name: onecx-tenant-svc
   repository: oci://ghcr.io/onecx/charts
-  version: 0.0.0-rc.23
-digest: sha256:f46ed5eac9a6a2e2810aecc3d33cf212d814c3e71aec8cf1432713ce5297152f
-generated: "2024-01-22T17:02:17.58672088Z"
+  version: 0.0.0-rc.24
+digest: sha256:bacc9a6d05d46ddc629b2541e82cd27f4bad7893f45ac0a53a07db251e2bdb97
+generated: "2024-02-02T09:12:41.7616073Z"

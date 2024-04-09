@@ -1,0 +1,7 @@
+name: onecx-tenant
+title: OneCx Tenant Management
+version: latest
+start_page: general:index.adoc
+nav:
+ - modules/product/nav.adoc
+ - modules/svc/nav.adoc

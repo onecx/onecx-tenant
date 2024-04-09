@@ -1,7 +1,7 @@
 name: onecx-tenant
 title: Tenant Management
 version: latest
-start_page: general:index.adoc
+start_page: product:index.adoc
 nav:
  - modules/product/nav.adoc
  - modules/svc/nav.adoc

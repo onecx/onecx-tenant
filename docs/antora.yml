@@ -1,5 +1,5 @@
 name: onecx-tenant
-title: OneCx Tenant Management
+title: Tenant Management
 version: latest
 start_page: general:index.adoc
 nav:

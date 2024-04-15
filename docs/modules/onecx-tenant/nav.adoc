@@ -1,0 +1,1 @@
+* xref:onecx-tenant:index.adoc[Tenant Management]

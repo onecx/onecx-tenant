@@ -5,5 +5,11 @@ dependencies:
 - name: onecx-tenant-svc
   repository: oci://ghcr.io/onecx/charts
   version: 0.0.0-rc.37
-digest: sha256:8cc28f3d39fb04530542e8ffc634179ef4877141b968d350d841e00212633abb
-generated: "2024-04-18T08:21:33.775106183Z"
+- name: onecx-tenant-bff
+  repository: oci://ghcr.io/onecx/charts
+  version: 0.0.0-rc.10
+- name: onecx-tenant-ui
+  repository: oci://ghcr.io/onecx/charts
+  version: 0.0.0-rc.5
+digest: sha256:3f1335da96ffa6dfcdf7dfb2ba7bd11e53c303c3ef062a051c1d31d5cfeb1a92
+generated: "2024-04-30T12:36:02.0436586+02:00"

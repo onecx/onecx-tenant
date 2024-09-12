@@ -3,6 +3,7 @@ title: Tenant Management
 version: latest
 start_page: onecx-tenant:index.adoc
 nav:
- - modules/onecx-tenant/nav.adoc
+ - modules/general/nav.adoc
+ - modules/onecx-tenant-ui/nav.adoc
  - modules/onecx-tenant-svc/nav.adoc
  - modules/onecx-tenant-bff/nav.adoc

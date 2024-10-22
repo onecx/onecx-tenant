@@ -1,6 +1,6 @@
 openapi: "3.0.2"
 info:
-  title: onecx-tenant
+  title: onecx-tenant resolver v1
   version: "1.0"
 servers:
   - url: https://onecx-tenant

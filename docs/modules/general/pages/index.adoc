@@ -1,5 +1,32 @@
 = OneCX Tenant Management
 
+.Tenant UI
+image::overview.png[]
+
+== Overview
+The Tenant Management Solution is designed to efficiently manage multiple tenants within a single platform. It provides comprehensive tools for administrators to oversee tenant-specific configurations, ensuring each tenant has a tailored and secure environment that meets their unique needs. Key Features includes:
+
+*Tenant Configuration*:
+
+* Custom Settings: Allows administrators to configure settings specific to each tenant, including branding, themes, and access controls.
+* Theme Management: Supports the application of different themes for each tenant, allowing for a unique visual identity that aligns with their specific branding and preferences.
+
+*Security and Compliance*:
+
+* Data Isolation: Ensures that each tenant's data is isolated and secure, preventing unauthorized access between tenants.
+* Compliance Management: Helps maintain compliance with industry standards and regulations by providing tools for auditing and reporting.
+
+*Customization*:
+
+* Customizable Features: Offers the ability to customize features and functionalities to meet the specific needs of each tenant.
+
+== Benefits
+* *Efficient Management*: Streamlines the management of multiple tenants, reducing administrative overhead and complexity.
+* *Enhanced Security*: Ensures robust security measures are in place to protect tenant data and maintain compliance.
+* *Improved Performance*: Provides tools to monitor and optimize performance, ensuring a high-quality user experience for all tenants.
+* *Flexibility*: Offers a high degree of customization and scalability, allowing the solution to adapt to the evolving needs of each tenant.
+* *Unique Tenant Experiences*: The ability to provide different themes for each tenant ensures that each one can have a distinct look and feel, enhancing their user experience.
+
 == Licence
 This software is licensed under the Apache License, Version 2.0.
 You may obtain a copy of the license in the corresponding LICENSE file or visit the link:https://www.apache.org/licenses/LICENSE-2.0[Apache website] for more information.
@@ -8,16 +35,10 @@ You may obtain a copy of the license in the corresponding LICENSE file or visit 
 We welcome contributions from the community.
 If you would like to contribute to the development of OneCX Tenant Management Software, please follow our contribution guidelines (tbd).
 
-== What is Tenant Management?
-Tenant Management refers to storing and retrieving Tenants usable in context of OneCX applications.
-
-== Key Features
-* Tenant item Storage and Retrieval: Store and retrieve Tenants usable in context of OneCX applications.
-
-== Issue tracking
+== Issue Tracking
 All OneCX Tenant issues are tracked and maintained at the link:https://xyz.com[issue tracking tool].
 
-== Overview
+== Structure Overview
 OneCX Tenant Software is a comprehensive solution for managing Tenants in a user-friendly and efficient manner.
 It is a solution that consists of three main components: a backend service, a user interface and a backend-for-frontend (BFF) layer.
 

@@ -6,9 +6,11 @@ deployment:
 product:
   info:
     data:
-      description: "OneCX Tenant"
+      description: "Display Tenants"
       imageUrl: ""
-      iconName: "lock"
+      iconName: "building-columns"
       displayName: "OneCX Tenant"
-      basePath: "/tenant"
+      basePath: /tenant
+      provider: "OneCX Team"
+      classifications: [ "Administration" ]
       

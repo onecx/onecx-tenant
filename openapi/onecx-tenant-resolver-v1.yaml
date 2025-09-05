@@ -1,11 +1,12 @@
 openapi: "3.0.2"
 info:
-  title: onecx-tenant resolver v1
+  title: onecx-tenant resolver V1
+  description: This API provides endpoints to resolve an organization id into a tenant by the tenant service
   version: "1.0"
 servers:
   - url: https://onecx-tenant
 tags:
-  - name: TenantResolver
+  - name: tenantResolver
     description: Tenant resolver service
 paths:
   /v1/tenant/{orgId}:
@@ -13,8 +14,8 @@ paths:
         security:
           - oauth2: [ ocx-tn-resolver:read ]
         tags:
-          - TenantResolver
-        summary: Get tenant
+          - tenantResolver
+        description: Get tenant by the given organization id
         operationId: getTenantByOrgId
         parameters:
           - name: orgId
@@ -24,13 +25,13 @@ paths:
               type: string
         responses:
           "200":
-            description: OK
+            description: Tenant retrieved successfully
             content:
               "application/json":
                 schema:
                   $ref: "#/components/schemas/TenantId"
           "404":
-            description: Not found
+            description: Tenant not found
 components:
   securitySchemes:
     oauth2:

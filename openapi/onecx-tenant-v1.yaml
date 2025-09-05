@@ -1,11 +1,12 @@
 openapi: "3.0.2"
 info:
-  title: onecx-tenant v1
+  title: onecx-tenant external service V1
+  description: This API provides endpoints to retrieve Tenants
   version: "1.0"
 servers:
   - url: https://onecx-tenant
 tags:
-  - name: Tenant
+  - name: tenant
     description: External tenant service
 paths:
   /v1/tenant:
@@ -13,12 +14,12 @@ paths:
         security:
           - oauth2: [ ocx-tn:read ]
         tags:
-          - Tenant
-        summary: Get tenant
+          - tenant
+        description: Get tenants
         operationId: getTenantMapsByOrgId
         responses:
           "200":
-            description: OK
+            description: Tenant retrieved successfully
             content:
               "application/json":
                 schema:
@@ -30,7 +31,7 @@ paths:
                 schema:
                   $ref: '#/components/schemas/ProblemDetailResponse'
           "404":
-            description: Not found
+            description: Tenant not found
 components:
   securitySchemes:
     oauth2:

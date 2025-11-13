@@ -1,2 +1,2 @@
 # onecx-tenant
-OneCx Tenant Management
+OneCX Tenant

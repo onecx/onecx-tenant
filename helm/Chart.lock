@@ -7,9 +7,9 @@ dependencies:
   version: 1.8.0-rc.16
 - name: onecx-tenant-bff
   repository: oci://ghcr.io/onecx/charts
-  version: 1.7.0-rc.12
+  version: 1.7.0-rc.14
 - name: onecx-tenant-ui
   repository: oci://ghcr.io/onecx/charts
   version: 1.6.0-rc.13
-digest: sha256:4599c4cfb00ec6f1f0664efd569020d970d5d64bc25e07439a400547d0510b28
-generated: "2025-12-08T18:28:13.044677421Z"
+digest: sha256:6368888dd8a3a00542210fa4ccf73b2f1ae7d9e2afbba44a322f15f43267f449
+generated: "2025-12-08T18:41:07.73367002Z"

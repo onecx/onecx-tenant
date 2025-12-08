@@ -1,0 +1,7 @@
+* xref:documentation:onecx-tenant:index.adoc[Tenant]
++
+include::documentation:onecx-tenant-ui:partial$nav.adoc[]
++
+include::documentation:onecx-tenant-bff:partial$nav.adoc[]
++
+include::documentation:onecx-tenant-svc:partial$nav.adoc[]

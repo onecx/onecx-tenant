@@ -10,6 +10,6 @@ dependencies:
   version: 1.11.0-rc.5
 - name: onecx-tenant-ui
   repository: oci://ghcr.io/onecx/charts
-  version: 1.9.0-rc.2
-digest: sha256:ac6981d7659309b68bdab270c6e562710a2e42dab1b475885d3e01fc63223566
-generated: "2026-11-19T13:27:12.930444528Z"
+  version: 1.9.0-rc.3
+digest: sha256:256531d330d817436277baae1c6a92599f3490968434f59f7df0e39fb4568d19
+generated: "2026-11-24T18:46:45.445386892Z"
